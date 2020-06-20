@@ -16,7 +16,7 @@ let question_array = [
 
 function check() {
   let user_answer = form.user_answer.value;
-  if (user_answer == "3" || user_answer == "три") {
+  if (user_answer == "3" || user_answer.toLowerCase() == "три") {
     bingo.innerHTML =
       "Точно, три штуки! Ещё утром было два. Никому не говори, это смертельно опасные хищники, триффиды! Возможно что-то не так с этим миром.";
     question.innerHTML = question_array[1];

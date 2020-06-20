@@ -2,22 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Page</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>С днём рождения!</h1>
-    <div id="bingo"></div>
-    <hr />
-    <div id="question">
-      Давай просто прогуляемся по паркам! Хотя постойте-ка, что это за странные
-      деревья? Тут картинка
-      <div class="">
-        Проверь адрес 1 Сколько странных деревьев?
+    <div class="container">
+      <h1>С днём рождения!</h1>
+      <div id="bingo"></div>
+      <hr />
+      <div id="question">
+        Давай просто прогуляемся по паркам! Хотя постойте-ка, что это за
+        странные деревья? Тут картинка
+        <div class="">
+          Проверь адрес 1 Сколько странных деревьев?
+        </div>
       </div>
+      <form name="answer_form">
+        <input type="text" id="user_answer" name="user_answer" />
+      </form>
+      <script src="script.js"></script>
     </div>
-    <form name="answer_form">
-      <input type="text" id="user_answer" name="user_answer" />
-    </form>
-    <script src="script.js"></script>
   </body>
 </html>
