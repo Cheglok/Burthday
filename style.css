@@ -1,6 +1,38 @@
 body {
-  font-size: 14px;
+  font-size: 18px;
+  background-image: url(img/vspace.jpg);
+  background-size: cover;
+  color: #eb75c9;
 }
 .container {
-  width: 375px;
+  width: 350px;
+  margin: 0 auto;
+}
+.heading {
+  text-align: center;
+}
+.bingo {
+  color: #6be88e;
+}
+.question {
+  color: #c93d12;
+  background-color: #000;
+}
+.answer_form {
+  display: flex;
+  align-items: center;
+}
+input.answer-input {
+  background-color: #000;
+  border: 1px solid #572502;
+  outline: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #eb6405;
+  padding: 3px, 15px;
+  width 50%;
+  margin: 0 auto;
+}
+.answer-input:focus {
+  border: 2px solid #eb6405;
 }

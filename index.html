@@ -8,20 +8,20 @@
   </head>
   <body>
     <div class="container">
-      <h1>С днём рождения!</h1>
-      <div id="bingo"></div>
+      <h1 class="heading" id="heading">Заголовок</h1>
+      <p class="bingo" id="bingo"></p>
       <hr />
-      <div id="question">
-        Давай просто прогуляемся по паркам! Хотя постойте-ка, что это за
-        странные деревья? Тут картинка
-        <div class="">
-          Проверь адрес 1 Сколько странных деревьев?
-        </div>
-      </div>
-      <form name="answer_form">
-        <input type="text" id="user_answer" name="user_answer" />
+      <p class="question" id="question"></p>
+      <form class="answer_form" name="answer_form">
+        <input
+          class="answer-input"
+          type="text"
+          id="user_answer"
+          name="user_answer"
+          autocomplete="off"
+        />
       </form>
-      <script src="script.js"></script>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
